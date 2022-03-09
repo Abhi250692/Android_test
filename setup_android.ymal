@@ -3,4 +3,4 @@
   user: root
   tasks:
      - name: Execute the script
-       local_action: command sudo sh /root/install_sdk.sh
+       local_action: command sudo sh /root/Android_test/install_sdk.sh
