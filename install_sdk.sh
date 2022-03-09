@@ -11,4 +11,4 @@ rm -f android-sdk.zip
 yes | tools/bin/sdkmanager --licenses
 export ANDROID_HOME=$root/android-sdk-linux
 export PATH=$PATH:$ANDROID_HOME/tools
-export PATH=$PATH:$ANDROID_HOME/platform-toolsvim /etc/profile.d/gradle.sh
+export PATH=$PATH:$ANDROID_HOME/platform-tools
