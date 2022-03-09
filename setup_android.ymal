@@ -1,6 +1,7 @@
 - name: Transfer and execute a script.
   hosts: 192.168.1.15
   user: root
+  host_key_checking = false
   tasks:
      - name: Execute the script
        local_action: command sudo sh /root/Android_test/install_sdk.sh
